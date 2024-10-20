@@ -42,6 +42,7 @@ const EmailSection: React.FC = () => {
         throw new Error("Failed to send email");
       }
     } catch (err) {
+      console.error("Error sending email:", err);
       setError("An error occurred while sending the email.");
       setEmailSubmitted(false);
     }
