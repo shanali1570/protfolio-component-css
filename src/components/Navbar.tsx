@@ -13,6 +13,10 @@ type NavLink = {
 
 const navLinks: NavLink[] = [
   {
+    title: "Home",
+    path: "/",
+  },
+  {
     title: "About",
     path: "#about",
   },
