@@ -19,6 +19,7 @@ export default function Home() {
         <EmailSection />
       </div>
       <Footer />
+      
     </main>
   );
 }
